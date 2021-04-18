@@ -1,0 +1,13 @@
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.text:hover {
+    background-color: yellow;
+}
+
+p {
+    font-weight: 200;
+    color: brown;
+}

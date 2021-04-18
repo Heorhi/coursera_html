@@ -1,0 +1,19 @@
+.test {
+    background-color: lightblue;
+    border: 6px solid lightgreen;
+    width: 400px;
+    display: flex;
+}
+
+.hl {
+    margin-left: 8px;
+    color: red;
+    padding: 8px;
+    overflow: auto;
+}
+
+.bg {
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+}
