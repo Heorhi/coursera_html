@@ -1,0 +1,55 @@
+div {
+    border: solid 1px black;
+}
+
+.column {
+    padding: 8px;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: palegreen;
+}
+
+@media (min-width: 992px) {
+    .column {
+        width: 30%;
+        float: left;
+        color: blue;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #col1, #col2 {
+        width: 42%;
+        float: left;
+        color: red;
+    }
+    #col3 {
+        width: 90%;
+        float: left;
+    }
+}
+
+@media (max-width: 767px) {
+    .column {
+        color: green;
+        float: left;
+    }
+}
+
+.title {
+    float:right;
+    width: 100px;
+    font-weight: 800;
+    right: -8px;
+    top: -8px;
+    clear:left;
+    background-color: lightgray;
+    position: relative;
+    text-align: center;
+    font-size: 125%;
+
+}
+
+.text {
+    float: left;
+}
